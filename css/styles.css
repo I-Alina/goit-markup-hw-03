@@ -1,0 +1,223 @@
+:root{
+    --header-color: #757575;
+    --main-title-color: #212121;
+    --second-header-color: #2196F3;
+    --local-color: #FFFFFF;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+span {
+    color: var(--main-title-color);
+}
+ul {
+        list-style: none;
+    }
+.link {
+    text-decoration: none;
+}
+.title-title {
+    color: var(--local-color);
+}
+.img-title,
+.text-title,
+.aside-title,
+.content-subtitle a,
+.aside-subtitle {
+    color: var(--main-title-color);
+}
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.text,
+.img {
+    background-color: #E5E5E5;
+}
+.portfolio-btn {
+    cursor: pointer;
+} 
+/*-------------HEADER-------------*/
+header {
+    background-color: var(--local-color);
+}
+/*-------------HEADER-LOGO-FOOTER-------*/
+.header-logo,
+.footer-logo {
+        color: var(--second-header-color);
+        text-decoration: none;
+}
+.footer span {
+    color: var(--local-color);
+}
+/*-------------HEADER-NAV-------------*/
+.header-nav a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--main-title-color);text-decoration: none;
+}
+.header-nav a:hover,
+.header-nav a:focus {
+    color: var(--second-header-color);
+}
+.nav-link.current {
+    color: var(--second-header-color);
+}
+
+
+/*------------HEADER-CONTACTS------------*/
+.header-mail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--header-color);
+        text-decoration: none;
+}
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--second-header-color);
+}
+.header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+    text-decoration: none;
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--second-header-color);
+}
+/*-------------MAIN-TITLE-------------*/
+.title-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.title {
+    background-color: #2F303A;
+}
+.title-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--local-color);
+    background-color: var(--second-header-color)
+}
+.title-btn:hover,
+.title-btn:focus {
+    color: var(--second-header-color);
+}
+/*------------MAIN-TEXT-------------*/
+.text-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.text-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+/*-------------MAIN-IMG-------------*/
+.img-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+/*-------------MAIN-ASIDE-------------*/
+.aside-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+.aside-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+}
+.aside-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+}
+.aside {
+    background-color: #F5F4FA;
+}
+/*-------------FOOTER-------------*/
+.footer {
+    background: #2F303A;
+}
+.footer-address {
+    font-style: inherit;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    color: var(--local-color);
+}
+.footer-mail,
+.footer-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-mail:hover,
+.footer-mail:focus {
+    color: var(--second-header-color);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--second-header-color);
+}
+/*------------PORTFOLIO-MAIN-------------*/
+/*-----------PORTFOLIO-FILTER------------*/
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--main-title-color);background-color: #F5F4FA;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--local-color);
+    background-color: var(--second-header-color);
+}
+/*-----------PORTFOLIO-CONTENT-----------*/
+.content-list {
+    background-color: #E5E5E5;;
+}
+.content-subtitle a {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.06em;
+        text-decoration: none;
+}
+.content-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+}
