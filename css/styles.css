@@ -18,6 +18,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
+/*--------------UTILITIES-----------------*/
+
 p,
 h1,
 h2,
@@ -84,6 +86,10 @@ header {
     border-bottom: 1px solid #ECECEC;
     background-color: var(--local-color);
 }
+.general {
+    display: flex;
+    align-items: center;
+}
 /*-------------HEADER-LOGO-FOOTER-------*/
 .header-logo,
 .footer-logo {
@@ -92,6 +98,9 @@ header {
 }
 .footer span {
     color: var(--local-color);
+}
+.header-logo {
+    margin-right: 93px;
 }
 /*-------------HEADER-NAV-------------*/
 .header-nav a {
@@ -107,6 +116,20 @@ header {
 }
 .nav-link.current {
     color: var(--second-header-color);
+}
+.nav-list {
+    display: flex;
+}
+.nav-list li {
+    outline: 4px solid red;
+}
+.nav-list li:not(:last-child) {
+    margin-right: 50px;
+}
+.nav-link a {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
 
@@ -135,6 +158,14 @@ header {
 .header-tel:focus {
     color: var(--second-header-color);
 }
+.header-list {
+    display: flex;
+    margin-left: auto;
+    outline: 4px solid red;
+}
+.header-list .item + .item {
+    margin-left: 50px;
+}
 /*-------------MAIN-TITLE-------------*/
 .title-title {
         display: inline-block;
@@ -154,7 +185,7 @@ header {
     background-color: #2F303A;
 }
 .title-btn {
-    display: inline-block;
+    display: block;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -166,7 +197,8 @@ header {
     padding: 10px 32px;
     border-radius: 4px;
     color: var(--local-color);
-    background-color: var(--second-header-color)
+    background-color: var(--second-header-color);
+    outline: 4px solid red;
 }
 .title-btn:hover,
 .title-btn:focus {
@@ -188,6 +220,9 @@ header {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.text-list {
+    display: flex;
 }
 /*-------------MAIN-IMG-------------*/
 .img {
