@@ -33,7 +33,7 @@ h4 {
     padding-left: 0;
 }
 .container {
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -80,8 +80,6 @@ button {
 
 /*-------------HEADER-------------*/
 header {
-    padding-top: 24px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
     background-color: var(--local-color);
 }
@@ -215,13 +213,14 @@ header {
 }
 .text-list {
      display: flex;
-     margin: -94px -30px;
      margin-left: auto;
      margin-right: auto;
 }
 .text-item {
     width: 270px;
-    margin: 94px 30px;
+}
+.text-item:not(:nth-child(4n)) {
+    margin-right: 30px;
 }
 .text .container {
    justify-content: center;
@@ -241,22 +240,24 @@ header {
 }
 .img-item {
     display: block;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .img-list {
     display: flex;
-    margin-left: -30px;
-    margin-right: -30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-item:not(:nth-child(3n)) {
+    margin-right: 30px;
 }
 
 
 /*-------------MAIN-ASIDE-------------*/
-.aside {
-    padding-top: 0;
+.aside .container {
+    padding-top: 94px;
     padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 .aside-title {
         font-weight: 700;
@@ -284,8 +285,6 @@ header {
 }
 .aside-list {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;
 }
 .aside-item {
